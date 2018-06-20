@@ -6,6 +6,7 @@
     - common
     - lizard-common
     - lizard-master
+  become: yes
 
 
 - name: lizard chunk servers

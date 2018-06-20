@@ -1,5 +1,5 @@
-lizard-master
-lizard-chunk-1
+lizard-master ip=192.168.1.22
+lizard-chunk-1 ip=192.168.1.32
 
 [lizard-masters]
 lizard-master

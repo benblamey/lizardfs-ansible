@@ -1,0 +1,9 @@
+
+
+- name: mount chunk volume (XFS)
+  mount:
+    path: /mnt/vbd1
+    src: /dev/vbd1
+    fstype: xfs
+    opts: rw,noexec,nodev,noatime,nodiratime,largeio,inode64,barrier=0
+    state: mounted

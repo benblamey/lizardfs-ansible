@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ansible_site_uppmax.bash" type="BashConfigurationType" factoryName="Bash">
+    <module name="lizardfs-ansible" />
+    <option name="INTERPRETER_OPTIONS" value="bash" />
+    <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="PARENT_ENVS" value="true" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ansible_site_uppmax.bash" />
+    <option name="PARAMETERS" value="" />
+    <method />
+  </configuration>
+</component>

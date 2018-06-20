@@ -1,0 +1,16 @@
+
+
+- name: Add an Apt signing key for LizardFS
+  apt_key:
+    url: http://packages.lizardfs.com/lizardfs.key
+    state: present
+
+# Fails: there is no package for bionic.
+
+- apt_repository:
+    repo: deb http://packages.lizardfs.com/ubuntu/bionic bionic main
+    state: present
+
+- apt_repository:
+    repo: deb-src http://packages.lizardfs.com/ubuntu/bionic bionic main
+    state: present
