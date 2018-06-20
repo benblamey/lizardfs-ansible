@@ -6,3 +6,9 @@ lizard-master
 
 [lizard-chunks]
 lizard-chunk-1
+
+
+
+[all:vars]
+# Needed for Ubuntu hosts
+ansible_python_interpreter=/usr/bin/python3
