@@ -1,6 +1,16 @@
 
 
 - name: lizard master
-  hosts: lizard-master
+  hosts: lizard-masters
   roles:
+    - common
+    - lizard-common
     - lizard-master
+
+
+- name: lizard chunk servers
+  hosts: lizard-chunks
+  roles:
+    - common
+    - lizard-common
+    - lizard-chunk
