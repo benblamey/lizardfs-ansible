@@ -1,0 +1,6 @@
+
+
+- name: lizard master
+  hosts: lizard-master
+  roles:
+    - lizard-master
